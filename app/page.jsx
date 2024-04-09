@@ -112,9 +112,12 @@ export default async function Home() {
 					nextjs-eid-fitr <FaExternalLinkSquareAlt />
 				</Link>
 			</div>
-			<div className="my-10 flex flex-col xl:flex-row w-full gap-6">
+			<div className="my-10 flex flex-col justify-center md:flex-row md:flex-wrap w-full gap-6">
 				{games.map((game) => (
-					<div key={game.gameSlug} className="w-full h-full flex flex-col">
+					<div
+						key={game.gameSlug}
+						className="w-full md:w-[300px] lg:w-[400px] h-full flex flex-col"
+					>
 						<div className="h-56 lg:h-96 w-full relative">
 							<Image
 								src={game.favoriteGameCoverImage.attributionImage.url}
