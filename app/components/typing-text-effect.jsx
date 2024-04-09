@@ -8,9 +8,6 @@ export default function TypingTextAnimation({ textToShow }) {
 				autoStart: true,
 				loop: true,
 			}}
-			onInit={(typewriter) => {
-				typewriter.typeString(textToShow).pauseFor(2500).deleteAll().start();
-			}}
 		/>
 	);
 }
