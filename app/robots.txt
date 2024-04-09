@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://favgames.hydiary.my.id/sitemap.xml
